@@ -1,2 +1,2 @@
 # Alien-Invasion-Game
-Arcade-like Game programmed using PyGame. 
+Arcade-like Game programmed using PyGame. A space ship can be moved along the bottom of a screen (left and right arrow keys) and has to shoot (space key) an alien fleets that is moving towards it.. The player receives points for every alien shot. If an alien reaches the bottom of the screen/the space ship, the game is started again until all ships are used up. When all aliens are shot a new level starts and the aliens move faster.
