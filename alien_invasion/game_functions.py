@@ -232,8 +232,10 @@ def check_aliens_bottom (ai_settings, screen,stats, sb,ship, aliens, bullets):
 
 def check_high_score(stats,sb):
     """Check to see if there's a new high score."""
-    if stats.score > stats.high_score:
+    if stats.score > int(stats.high_score):
         stats.high_score=stats.score
+        hs_file_new=open('high_score.txt', 'w')
+        hs_file_new.write(str(stats.high_score))
         sb.prep_high_score()
         
 
